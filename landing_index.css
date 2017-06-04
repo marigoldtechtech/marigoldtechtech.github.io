@@ -8,6 +8,10 @@ body {
    margin-bottom: 100px;
 }
 
+#main_nav {
+   background-color: white;
+}
+
 #email_check_box_container {
    margin-top: 30px;
 }
