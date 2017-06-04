@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=1100">
+      <title>PigeonMail.io</title>
+      <!-- Bootstrap -->
+      <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css"
+         rel="stylesheet">
+      <link href="landing_index.css" rel="stylesheet">
+   </head>
+   <body>
+
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="nav_link_li active" id="nav_home">
+                     <a href="javascript:void(0);">Home</a>
+                  </li>
+                  <li class="nav_link_li" id="nav_pricing">
+                     <a href="javascript:void(0);">Pricing</a>
+                  </li>
+                  <li class="nav_link_li" id="nav_contact">
+                     <a href="javascript:void(0);">Contact Us</a>
+                  </li>
+               </ul>
+            </div><!--/.nav-collapse -->
+         </div>
+      </nav>
+
+      <div class="container" id="email_check_box_container">
+         <!-- Logo and Email Check Box -->
+         <div class="row">
+            <div class="col-md-6">
+               <img src="/images/pigeon_mail.png" id="main_pigeon_img">
+            </div>
+            <div class="col-md-6">
+               <div id="email_check_box">
+                  <div class="ecb_top"><h2>Free Public Email!</h2></div>
+                  <div class="ecb_bottom">
+                     <div class="input-group input-group-lg">
+                        <input type="text" class="form-control"
+                           placeholder="Email ID" id="emailid_textbox" autofocus>
+                        <span class="input-group-addon">@</span>
+                        <span class="input-group-addon">pigeonmail.io</span>
+                     </div>
+                     <div class="brief_summary">
+                        <span>Make up any email address you want!</span>
+                        <br />
+                        <span>Here's a suggestion: </span>
+                        <a class="suggestion" href="javascript:void(0);">foo@pigeonmail.io</a>
+                        <br />
+                        <button class="btn" id="btn_viewall" onclick="window.location='https://app.pigeonmail.io'">Or, view all emails</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div><!-- container -->
+
+		<div id="features_section">
+		<div class="container">
+			<h2 class="title text-center">PigeonMail.io is a free public email service where all email addresses pre-exist!</h2>
+			<div class="row">
+				<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="icon-holder">
+						<i class="glyphicon glyphicon-inbox"></i>
+					</div>
+					<div class="content">
+						<h3 class="sub-title">Use any Inbox</h3>
+						<p>Any email address you can think of already exists, so give out a random pigeonmail.io email address anytime a website asks for an email address!</p>
+					</div><!--//content-->
+				</div><!--//item-->
+				<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="icon-holder">
+						<i class="glyphicon glyphicon-trash"></i>
+					</div>
+					<div class="content">
+						<h3 class="sub-title">Disposable Email</h3>
+						<p>Old emails are periodically deleted in the public inbox as new emails come in.</p>
+					</div><!--//content-->
+				</div><!--//item-->
+				<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="icon-holder">
+						<i class="glyphicon glyphicon-search"></i>
+					</div>
+					<div class="content">
+						<h3 class="sub-title">Search Across all Inboxes</h3>
+						<p>Search by from email address, to email address, and subject fields!</p>
+					</div><!--//content-->
+				</div><!--//item-->
+			</div><!--//row-->
+			<div class="row">
+				<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="icon-holder">
+						<i class="glyphicon glyphicon-alert"></i>
+					</div>
+					<div class="content">
+						<h3 class="sub-title">Prevents Spam</h3>
+						<p>Use your real email address for your personal business. PigeonMail is there to handle spam for you!</p>
+					</div><!--//content-->
+				</div><!--//item-->
+				<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="icon-holder">
+						<i class="glyphicon glyphicon-check"></i>
+					</div>
+					<div class="content">
+						<h3 class="sub-title">Use it for Testing</h3>
+						<p>Send all your test emails to PigeonMail, so you don't have to create a billion email addresses!</p>
+					</div><!--//content-->
+				</div><!--//item-->
+				<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="icon-holder">
+						<i class="glyphicon glyphicon-flash"></i>
+					</div>
+					<div class="content">
+						<h3 class="sub-title">Enterprise Plans</h3>
+						<p>Sign up for an Enterprise Plan for a ton of extra features like a private inbox, custom domain, sending secure emails, lots of storage, multiple user accounts, etc.</p>
+					</div><!--//content-->
+				</div><!--//item-->
+			</div><!--//row-->
+		</div><!--//container-->
+		</div><!--//features_section-->
+
+      <div id="pricing_section">
+         <div class="container">
+            <h1 class="text-center">Enterprise Plans</h1>
+            <div class="row pricing_row">
+               <div class="col-md-4">
+                  <div class="pricing_card">
+                     <h3 class="title">32 GB Storage</h3>
+                     <h4 class="price">$99 per month</h4>
+                     <div class="buy">
+                        <button class="btn btn-warning"
+                           onclick="location='/buy#32'">Sign Up!</button>
+                     </div>
+                  </div>
+               </div><!--//column-->
+               <div class="col-md-4">
+                  <div class="pricing_card">
+                     <h3 class="title">64 GB Storage</h3>
+                     <h4 class="price">$159 per month</h4>
+                     <div class="buy">
+                        <button class="btn btn-warning"
+                           onclick="location='/buy#64'">Sign Up!</button>
+                     </div>
+                  </div>
+               </div><!--//column-->
+               <div class="col-md-4">
+                  <div class="pricing_card">
+                     <h3 class="title">128 GB Storage</h3>
+                     <h4 class="price">$219 per month</h4>
+                     <div class="buy">
+                        <button class="btn btn-warning"
+                           onclick="location='/buy#128'">Sign Up!</button>
+                     </div>
+                  </div>
+               </div><!--//column-->
+            </div><!--//row-->
+            <div class="row pricing_row">
+               <div class="col-md-4">
+                  <div class="pricing_card">
+                     <h3 class="title">256 GB Storage</h3>
+                     <h4 class="price">$279 per month</h4>
+                     <div class="buy">
+                        <button class="btn btn-warning"
+                           onclick="location='/buy#256'">Sign Up!</button>
+                     </div>
+                  </div>
+               </div><!--//column-->
+               <div class="col-md-4">
+                  <div class="pricing_card">
+                     <h3 class="title">512 GB Storage</h3>
+                     <h4 class="price">$339 per month</h4>
+                     <div class="buy">
+                        <button class="btn btn-warning"
+                           onclick="location='/buy#512'">Sign Up!</button>
+                     </div>
+                  </div>
+               </div><!--//column-->
+               <div class="col-md-4">
+                  <div class="pricing_card">
+                     <h3 class="title">1024 GB Storage</h3>
+                     <h4 class="price">$399 per month</h4>
+                     <div class="buy">
+                        <button class="btn btn-warning"
+                           onclick="location='/buy#1024'">Sign Up!</button>
+                     </div>
+                  </div>
+               </div><!--//column-->
+            </div><!--//row-->
+
+            <div class="cad_note">
+               All prices shown in CAD
+            </div>
+
+            <div class="extra_features">
+               <h3>All enterprise plans include the following:</h3>
+               <ul>
+                  <li>Your own <b>private domain name</b>. For example sales@example.com</li>
+                  <li>Securely send emails with <b>TLS, SPF, DKIM and DMARC protection</b> for maximum deliverability rates</li>
+                  <li><b>Search</b> emails across all email accounts</li>
+                  <li>Unlimited user accounts</li>
+                  <li>Custom access and delete permissions for user accounts</li>
+                  <li>A <b>whitelist of wildcard email addresses</b> for user accounts, like info@, sales@, project*@, bug???@, etc.</li>
+                  <li>A new <b>virtual private server with a unique public IP address</b> is provisioned for every enterprise customer for maximum security and email deliverability rates</li>
+                  <li>Technical support and maintenance</li>
+               </ul>
+            </div><!--//extra_features-->
+         </div><!--//container-->
+      </div><!--//pricing_section-->
+
+      <div id="contact_section">
+         <div class="container text-center">
+            <h1>Contact Us</h1>
+            <div class="content">
+               <p>We hope you find PigeonMail.io useful.</p>
+               <p>Feel free to get in touch if you have any questions or suggestions.</p>
+               <p>Email us at <a href="mailto:support@team.pigeonmail.io">support@team.pigeonmail.io</a></p>
+            </div><!--//content-->
+         </div><!--//container-->
+      </div><!--//contact_section-->
+
+      <footer class="footer">
+         <div class="container">
+            <p class="text-muted pull-left"><a href="/docs/terms_of_service.pdf" target="_blank">Terms of Service</a> | <a href="/docs/privacy_policy.pdf" target="_blank">Privacy Policy</a></p>
+            <p class="text-muted pull-right">&copy; PigeonMail.io Services Inc.</p>
+         </div>
+      </footer>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="libs/jquery-3.1.0.min.js"></script>
+      <!-- Include all compiled plugins -->
+      <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+      <!-- Other dependencies -->
+      <script src="libs/js.cookie-2.1.3.js"></script>
+      <script src="libs/bootbox.min.js"></script>
+      <script src="libs/jquery.scrollTo.min.js"></script>
+
+      <!-- The main function - the actual logic of this app -->
+      <script src="landing_index.js"></script>
+      <script>
+         $(function() {
+            main();
+         });
+      </script>
+   </body>
+</html>
