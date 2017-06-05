@@ -80,7 +80,9 @@ function initScreenSizeHandlers() {
 }
 
 function onPhoneScreen() {
+   $('#contact_info_header').css('text-align', 'center');
 }
 
 function onNotPhoneScreen() {
+   $('#contact_info_header').css('text-align', 'left');
 }
