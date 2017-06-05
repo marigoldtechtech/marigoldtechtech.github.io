@@ -8,6 +8,35 @@ body {
    padding-top: 90px;
 }
 
+/* xs */
+@media only screen and (min-width : 480px) {
+   body {
+      padding-top: 52px;
+   }
+}
+
+/* sm */
+@media only screen and (min-width : 768px) {
+   body {
+      padding-top: 80px;
+   }
+}
+
+/* md */
+@media only screen and (min-width : 992px) {
+   body {
+      padding-top: 90px;
+   }
+}
+
+/* lg */
+@media only screen and (min-width : 1200px) {
+   body {
+      padding-top: 90px;
+   }
+}
+
+
 .navbar-fixed-top {
    border-bottom: 1px solid #dddddd;
    background: #f5f5f5;
