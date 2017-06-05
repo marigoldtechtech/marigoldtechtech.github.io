@@ -30,7 +30,7 @@ function scrollToSection(section) {
       }
    }
 
-   $(window).scrollTo(target, {duration:500, offset:-50});
+   $(window).scrollTo(target, {duration:500, offset:-90});
 }
 
 function initNavLinks() {

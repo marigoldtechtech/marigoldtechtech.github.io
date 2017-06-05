@@ -39,6 +39,7 @@ body {
 #phones_logo {
    width: 0px;
    visibility: hidden;
+   margin-top: 25px;
 }
 
 .nav_link_li a {
