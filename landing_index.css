@@ -53,6 +53,9 @@ body {
       top: 50%;
       font-size: 20px;
    }
+   .card {
+      height: 310px;
+   }
 }
 
 /* lg */
@@ -66,6 +69,9 @@ body {
       top: 50%;
       font-size: 20px;
    }
+   .card {
+      height: 230px;
+   }
 }
 
 /* xl */
@@ -78,6 +84,9 @@ body {
       left: 50%;
       top: 50%;
       font-size: 30px;
+   }
+   .card {
+      height: 250px;
    }
 }
 
