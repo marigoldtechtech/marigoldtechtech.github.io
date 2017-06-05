@@ -40,25 +40,29 @@ function initNavLinks() {
       allNavLinks.removeClass('active');
    };
 
-   $('#nav_home a').click(function() {
+   $('.nav_link_li>a').click(function() {
       clearActiveLink();
+      navCollapse.collapse('hide');
+   });
+
+   $('#nav_home a').click(function() {
       $('#nav_home').addClass('active');
       scrollToSection('home');
-      navCollapse.collapse('hide');
    });
 
    $('#nav_pricing a').click(function() {
-      clearActiveLink();
       $('#nav_pricing').addClass('active');
       scrollToSection('pricing');
-      navCollapse.collapse('hide');
    });
 
    $('#nav_contact a').click(function() {
-      clearActiveLink();
       $('#nav_contact').addClass('active');
       scrollToSection('contact');
-      navCollapse.collapse('hide');
+   });
+
+   $('#nav_dropdown a').click(function() {
+      $('#nav_dropdown').addClass('active');
+      scrollToSection('contact');
    });
 }
 
