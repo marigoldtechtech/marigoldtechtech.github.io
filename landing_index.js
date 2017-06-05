@@ -34,6 +34,7 @@ function scrollToSection(section) {
 }
 
 function initNavLinks() {
+   var navCollapse = $('#main_navbar_collapse');
    var allNavLinks = $('.nav_link_li');
    var clearActiveLink = function() {
       allNavLinks.removeClass('active');
@@ -43,18 +44,21 @@ function initNavLinks() {
       clearActiveLink();
       $('#nav_home').addClass('active');
       scrollToSection('home');
+      navCollapse.collapse('hide');
    });
 
    $('#nav_pricing a').click(function() {
       clearActiveLink();
       $('#nav_pricing').addClass('active');
       scrollToSection('pricing');
+      navCollapse.collapse('hide');
    });
 
    $('#nav_contact a').click(function() {
       clearActiveLink();
       $('#nav_contact').addClass('active');
       scrollToSection('contact');
+      navCollapse.collapse('hide');
    });
 }
 
