@@ -31,6 +31,12 @@ body {
    body {
       padding-top: 80px;
    }
+   #the_team_caption {
+      right: 5%;
+      left: 50%;
+      top: 50%;
+      font-size: 20px;
+   }
 }
 
 /* lg */
