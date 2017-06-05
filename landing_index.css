@@ -14,7 +14,12 @@ body {
 
 .main_nav_padding {
    height: 20px;
-   background-color: red;
+}
+
+#main_logo {
+   width: 100%;
+   padding-top: 10px;
+   max-width: 250px;
 }
 
 .nav_link_li a {
