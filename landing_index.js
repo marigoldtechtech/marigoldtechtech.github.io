@@ -72,11 +72,7 @@ function initScreenSizeHandlers() {
 }
 
 function onPhoneScreen() {
-   $('#phones_logo').css('visibility', 'visible');
-   $('#phones_logo').width(240);
 }
 
 function onNotPhoneScreen() {
-   $('#phones_logo').css('visibility', 'hidden');
-   $('#phones_logo').width(0);
 }

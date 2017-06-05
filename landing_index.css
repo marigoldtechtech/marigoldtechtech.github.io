@@ -37,10 +37,15 @@ body {
    max-width: 180px;
 }
 
-#phones_logo {
-   width: 0px;
-   visibility: hidden;
-   margin-top: 20px;
+#phone_logo_a {
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-right: 0px;
+   padding-bottom: 5px;
+}
+
+#phone_logo_img {
+   height: 100%;
 }
 
 .nav_link_li a {
