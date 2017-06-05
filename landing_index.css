@@ -17,12 +17,28 @@ body {
       font-size: 12px;
       padding-left: 0px;
    }
+   #phone_header {
+      font-size: 12px;
+      padding-left: 0px;
+   }
+   #the_team_caption {
+      right: 5%;
+      left: 50%;
+      top: 15%;
+      font-size: 12px;
+   }
 }
 
 /* sm */
 @media only screen and (min-width : 480px) and (max-width: 767px) {
    body {
       padding-top: 52px;
+   }
+   #the_team_caption {
+      right: 5%;
+      left: 50%;
+      top: 30%;
+      font-size: 15px;
    }
 }
 
@@ -44,12 +60,24 @@ body {
    body {
       padding-top: 90px;
    }
+   #the_team_caption {
+      right: 5%;
+      left: 50%;
+      top: 50%;
+      font-size: 20px;
+   }
 }
 
 /* xl */
 @media only screen and (min-width : 1200px) {
    body {
       padding-top: 90px;
+   }
+   #the_team_caption {
+      right: 5%;
+      left: 50%;
+      top: 50%;
+      font-size: 30px;
    }
 }
 
