@@ -1,6 +1,7 @@
 function main() {
    // Initialize the navbar links:
    initNavLinks();
+   initScreenSizeHandlers();
 }
 
 /**
@@ -55,4 +56,27 @@ function initNavLinks() {
       $('#nav_contact').addClass('active');
       scrollToSection('contact');
    });
+}
+
+function initScreenSizeHandlers() {
+   var checkPhoneScreen = function() {
+      var width = $(window).width();
+      if (width <= 767) {
+         onPhoneScreen();
+      } else {
+         onNotPhoneScreen();
+      }
+   };
+   $(window).on('resize', checkPhoneScreen);
+   checkPhoneScreen();
+}
+
+function onPhoneScreen() {
+   $('#phones_logo').css('visibility', 'visible');
+   $('#phones_logo').width(240);
+}
+
+function onNotPhoneScreen() {
+   $('#phones_logo').css('visibility', 'hidden');
+   $('#phones_logo').width(0);
 }
