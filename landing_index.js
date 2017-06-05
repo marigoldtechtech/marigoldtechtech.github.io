@@ -17,8 +17,8 @@ function scrollToSection(section) {
          target = 0;
          break;
       }
-      case 'pricing': {
-         target = $('#pricing_section');
+      case 'services': {
+         target = $('#services_offered_container');
          break;
       }
       case 'contact': {
@@ -50,9 +50,9 @@ function initNavLinks() {
       scrollToSection('home');
    });
 
-   $('#nav_pricing a').click(function() {
-      $('#nav_pricing').addClass('active');
-      scrollToSection('pricing');
+   $('#nav_services a').click(function() {
+      $('#nav_services').addClass('active');
+      scrollToSection('services');
    });
 
    $('#nav_contact a').click(function() {
