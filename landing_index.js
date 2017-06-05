@@ -69,7 +69,7 @@ function initNavLinks() {
 function initScreenSizeHandlers() {
    var checkPhoneScreen = function() {
       var width = $(window).width();
-      if (width <= 767) {
+      if (width < 768) {
          onPhoneScreen();
       } else {
          onNotPhoneScreen();

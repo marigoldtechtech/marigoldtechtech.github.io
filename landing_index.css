@@ -27,6 +27,18 @@ body {
    height: 20px;
 }
 
+@media only screen and (min-width : 768px) {
+   .main_nav_padding_top {
+      height: 14px;
+   }
+}
+
+@media only screen and (min-width : 992px) {
+   .main_nav_padding_top {
+      height: 20px;
+   }
+}
+
 .main_nav_padding_bottom {
    height: 0px;
 }
