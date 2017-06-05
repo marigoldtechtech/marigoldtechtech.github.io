@@ -8,7 +8,17 @@ body {
 }
 
 #main_nav {
-   background-color: #dadada;
+   background-color: white;
+   border-color: white;
+}
+
+.main_nav_padding {
+   height: 20px;
+   background-color: red;
+}
+
+.nav_link_li a {
+   border-radius: 10px;
 }
 
 #email_check_box_container {
