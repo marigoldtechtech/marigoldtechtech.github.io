@@ -12,6 +12,10 @@ body {
    border-color: white;
 }
 
+#main_nav .navbar-header {
+   border: 1px solid #dddddd;
+}
+
 .main_nav_padding {
    height: 20px;
 }
