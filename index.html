@@ -186,13 +186,13 @@
       </div><!--/.contact_section-->
 
       <div id="contact_section">
-         <div class="container text-center">
-            <h1>Contact Us</h1>
-            <div class="content">
-               <p>We hope you find PigeonMail.io useful.</p>
-               <p>Feel free to get in touch if you have any questions or suggestions.</p>
-               <p>Email us at <a href="mailto:support@team.pigeonmail.io">support@team.pigeonmail.io</a></p>
-            </div><!--//content-->
+         <div class="container-fluid">
+            <div class="row">
+               <div class="item col-sm-6" id="gmaps_item">
+               </div>
+               <div class="item col-sm-6">
+               </div>
+            </div>
          </div><!--//container-->
       </div><!--//contact_section-->
 
@@ -220,5 +220,24 @@
             main();
          });
       </script>
+
+      <!-- Google Maps -->
+      <script>
+         function initMap() {
+            var marigold = {lat: 49.223232, lng: -122.691251};
+            var map = new google.maps.Map(document.getElementById('gmaps_item'), {
+               zoom: 17,
+               center: marigold,
+               scrollwheel: false
+            });
+            var marker = new google.maps.Marker({
+               position: marigold,
+               map: map
+            });
+         }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlhXb797LKLtwOTISTP74d_gcPvEi-bg4&callback=initMap"></script>
+      <!-- End Google Maps -->
+
    </body>
 </html>
