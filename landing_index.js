@@ -26,7 +26,7 @@ function scrollToSection(section) {
          break;
       }
       case 'contact': {
-         target = 'max';
+         target = $('#contact_section');
          break;
       }
       default: {
