@@ -58,7 +58,7 @@ body {
       top: 50%;
       font-size: 20px;
    }
-   .card {
+   .services_card {
       height: 310px;
    }
    #dentist_name {
@@ -77,7 +77,7 @@ body {
       top: 50%;
       font-size: 20px;
    }
-   .card {
+   .services_card {
       height: 230px;
    }
    #dentist_name {
@@ -96,7 +96,7 @@ body {
       top: 50%;
       font-size: 30px;
    }
-   .card {
+   .services_card {
       height: 250px;
    }
    #dentist_name {
