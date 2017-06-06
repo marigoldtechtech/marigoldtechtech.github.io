@@ -21,6 +21,10 @@ function scrollToSection(section) {
          target = $('#services_offered_container');
          break;
       }
+      case 'the_dentist': {
+         target = $('#the_dentist_section');
+         break;
+      }
       case 'contact': {
          target = 'max';
          break;
@@ -55,13 +59,13 @@ function initNavLinks() {
       scrollToSection('services');
    });
 
-   $('#nav_contact a').click(function() {
-      $('#nav_contact').addClass('active');
-      scrollToSection('contact');
+   $('#nav_dentist a').click(function() {
+      $('#nav_dentist').addClass('active');
+      scrollToSection('the_dentist');
    });
 
-   $('#nav_dropdown a').click(function() {
-      $('#nav_dropdown').addClass('active');
+   $('#nav_contact a').click(function() {
+      $('#nav_contact').addClass('active');
       scrollToSection('contact');
    });
 }
