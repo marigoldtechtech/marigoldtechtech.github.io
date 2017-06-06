@@ -216,6 +216,11 @@ body {
    background-color: grey;
 }
 
+#hours_card {
+   max-width: 270px;
+   margin-bottom: 20px;
+}
+
 #hours_table {
    width: 100%;
 }
@@ -228,7 +233,7 @@ body {
    width: 100%;
    /* Set the fixed height of the footer here */
    height: 60px;
-   background-color: orange;
+   background-color: #f0ad4e;
 }
 
 .footer .text-muted {
