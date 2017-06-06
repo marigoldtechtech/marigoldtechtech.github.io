@@ -216,6 +216,14 @@ body {
    background-color: grey;
 }
 
+#hours_table {
+   width: 100%;
+}
+
+#hours_table th, td {
+   padding-bottom: 10px;
+}
+
 .footer {
    width: 100%;
    /* Set the fixed height of the footer here */
