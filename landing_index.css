@@ -213,11 +213,10 @@ body {
 
 #gmaps_item {
    height: 500px;
+   background-color: grey;
 }
 
 .footer {
-   position: absolute;
-   bottom: 0;
    width: 100%;
    /* Set the fixed height of the footer here */
    height: 60px;
