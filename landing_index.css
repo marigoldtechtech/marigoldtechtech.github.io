@@ -22,7 +22,7 @@ body {
    }
    #the_team_caption {
       right: 5%;
-      left: 50%;
+      left: 60%;
       top: 15%;
       font-size: 12px;
    }
@@ -38,8 +38,8 @@ body {
    }
    #the_team_caption {
       right: 5%;
-      left: 50%;
-      top: 30%;
+      left: 62%;
+      top: 40%;
       font-size: 15px;
    }
    #dentist_name {
@@ -54,8 +54,8 @@ body {
    }
    #the_team_caption {
       right: 5%;
-      left: 50%;
-      top: 50%;
+      left: 62%;
+      top: 45%;
       font-size: 20px;
    }
    .services_card {
@@ -73,7 +73,7 @@ body {
    }
    #the_team_caption {
       right: 5%;
-      left: 50%;
+      left: 62%;
       top: 50%;
       font-size: 20px;
    }
@@ -92,8 +92,8 @@ body {
    }
    #the_team_caption {
       right: 5%;
-      left: 50%;
-      top: 50%;
+      left: 60%;
+      top: 45%;
       font-size: 30px;
    }
    .services_card {
