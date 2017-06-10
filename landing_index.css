@@ -58,9 +58,6 @@ body {
       top: 45%;
       font-size: 20px;
    }
-   .services_card {
-      height: 310px;
-   }
    #dentist_name {
       margin-top: 0px;
    }
@@ -77,9 +74,6 @@ body {
       top: 50%;
       font-size: 20px;
    }
-   .services_card {
-      height: 230px;
-   }
    #dentist_name {
       margin-top: 0px;
    }
@@ -95,9 +89,6 @@ body {
       left: 60%;
       top: 45%;
       font-size: 30px;
-   }
-   .services_card {
-      height: 325px;
    }
    #dentist_name {
       margin-top: 0px;
@@ -200,6 +191,15 @@ body {
 
 #services_offered_container {
    margin-top: 30px;
+}
+
+.services_offered_row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.services_offered_card_item {
+   display: flex;
 }
 
 #the_dentist_section {
